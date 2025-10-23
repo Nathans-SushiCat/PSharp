@@ -1,6 +1,6 @@
 # P# – Eine deutschsprachige Programmiersprache auf Basis von C#
 
-**P#** ist eine experimentelle, C#-basierte Programmiersprache, die vollständig auf geschriebener deutscher Sprache beruht. Ziel dieses Projekts ist es, eine domänenspezifische Sprache (DSL) zu entwickeln, die Programmierlogik und -struktur mit deutschen Schlüsselwörtern, Typen und Ausdrücken ausdrückt – lesbar, verständlich und näher an der natürlichen Schriftsprache.
+**P#** ist eine experimentelle, C#-basierte Programmiersprache, die vollständig auf geschriebener deutscher Sprache beruht. Ziel ist es, die Programmierlogik und -struktur mit deutschen Schlüsselwörtern, Typen und Ausdrücken ausdrückt – lesbar, verständlich und näher an der natürlichen Schriftsprache.
 
 ---
 
@@ -22,7 +22,8 @@ P# ist **keine eigenständige Laufzeitumgebung**, sondern ein **präprozessorbas
 Beispiel (P#):
 
 ```psharp
-wenn (Zahl ist größer als 10)
-    schreibe "Die Zahl ist groß";
+
+wenn eingabe ist größer als 10 dann
+    ausgabe "Die Zahl ist groß".
 sonst
-    schreibe "Die Zahl ist klein";
+    ausgabe "Die Zahl ist klein".
